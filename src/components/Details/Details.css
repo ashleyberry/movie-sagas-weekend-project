@@ -1,0 +1,18 @@
+body {
+ background-color: black;
+} 
+
+.description {
+    text-align: left;
+    width: 100%;
+}
+
+.details, p, h4 {
+    margin-top: 30px;
+    color: white !important;
+}
+
+img {
+    margin-bottom: 10px;
+}
+

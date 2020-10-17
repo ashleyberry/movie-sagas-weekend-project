@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: .1rem;
+  background-color: rgb(79, 67, 241);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer li {
+  padding-top: 10px;
+}

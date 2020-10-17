@@ -1,0 +1,20 @@
+#addMovie {
+    margin-top: 70px !important;
+    margin-bottom: 0 !important;
+}
+
+#form {
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px;
+}
+
+#helper {
+    color: rgb(0 0 0 / 54%) !important;
+}
+
+#buttons {
+    margin-bottom: 10px;
+}
