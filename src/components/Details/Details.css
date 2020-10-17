@@ -1,0 +1,33 @@
+
+body {
+    background-color: black;
+}
+
+.detailsBtns {
+    margin-top: 10px;
+}
+   
+.description {
+    text-align: left;
+    width: 100%;
+}
+   
+.details {
+    margin-top: 100px;
+}
+
+.movieTitle, h3 {
+    color: white !important;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+p {
+    color: white !important;
+    margin-bottom: 0;
+}
+
+img {
+    margin-bottom: 10px;
+    border: solid 2px white;
+}

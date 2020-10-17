@@ -1,0 +1,80 @@
+Database Setup
+-----
+[x] Create a database named saga_movies_weekend
+[x] Run the queries from database.sql on the saga_movies_weekend database.
+[x] create the junction table between the movies and genres tables! 
+    [x] It will be helpful to have some data for that junction table added.
+
+Install Dependencies
+-----
+[x] npm install
+[x] npm run server
+[x] npm run client
+
+Genres
+-----
+We've given you some starter genres in the database. 
+Feel free to change or add some with Postico. 
+[x] write out the whole GET flow to get the genres from your database to your client
+
+Movies
+-----
+We've added some movie posters in the public/images folder, 
+and the database is set up to use them.
+
+Relationships
+-----
+Genres can be applied to many different movies. 
+Movies can have multiple genres. 
+This is Many-to-Many! Junction Table time!
+
+FEATURE LIST
+-----
+[x] Take inventory of the existing code. 
+Part of the work for setting up sagas has been done for you.
+
+Home / List Page
+-----
+[x] This should display all of the movies in the movie database. 
+[x] When a movie poster is clicked, a user should be brought to the /details view.
+
+Details Page
+-----
+[x] This should show all details including genres, for the selected movie.
+Hint : You can make a GET request for a specific movie.
+[x] 'Back to List' button, which brings the user to the Home Page
+Base functionality does not require the movie details to load correctly after refresh of the browser.
+
+Add Movie Page
+-----
+[x] input field (for the movie title)
+[x] input field (for the movie poster image URL))
+[x] textarea (for the movie description)
+[x] dropdown (for the genres)
+[x] Cancel button 
+    [x] brings the user to the Home/List Page
+[x] Save button 
+    [x] updates the title and description in the database
+    [x] bring the user to the Home/List Page (which now has the new movie)
+
+General Tasks
+-----
+As one of your last projects, it's possible you will be sharing this with employers, 
+so be sure to follow best practices and make it look good!
+
+[x] Invest some time in styling it up!
+[x] Research cards for your movie posters on the list page
+[x] Research grids for your movie posters on the Movie List page
+[x] Commit your code frequently! You should have at 15+ commits on a project of this size. 
+[x] Use branches to help break down your features.
+[x] Comment your code.
+[x] Update README to include a description of the project in your own words.
+
+Stretch Goals
+-----
+Edit Page (Stretch)
+[x] Add to the detail page an edit button that brings the user to the edit page.
+[x] input field (for changing the movie title) for the selected movie.
+[x] textarea (for changing the movie description)
+[x] Cancel button, which should bring the user to the Details Page
+[ ] Save button, which should update the title and description in the database and bring the user to the Details Page

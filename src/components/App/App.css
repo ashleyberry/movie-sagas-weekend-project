@@ -1,0 +1,40 @@
+a {
+  color: #FFF;
+}
+
+a:hover {
+   color: rgb(240, 220, 107);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  height: 150px;
+  padding: 35px;
+  background: url('https://image.freepik.com/free-photo/popcorn-flying-out-cardboard-box-isolated-black-background_88281-20.jpg');
+  /* Found following flip info from here: */
+  /* https://stackoverflow.com/questions/5768998/how-to-flip-background-image-using-css */
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+.App-intro {
+  font-size: large;
+}
+
+img {
+  object-fit: cover;
+  height: 274px;
+  width: 175px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

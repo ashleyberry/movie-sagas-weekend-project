@@ -1,0 +1,21 @@
+body {
+  background-color: black !important;
+}
+
+.home, img {
+  display: inline-block
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.moviesList {
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

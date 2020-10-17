@@ -1,0 +1,29 @@
+.edit {
+    margin-top: 40px;
+}
+
+.editForm {
+    padding: 10px;
+}
+
+.updateBtns {
+    margin-bottom: 10px;
+}
+
+.updateDescription {
+    margin-top: 10px;
+}
+
+#updateForm {
+    padding: 0;
+    width: 50%;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 50px; 
+}
+
+
+.updateTitle {
+    color: white !important;
+    padding: 10px;
+}
