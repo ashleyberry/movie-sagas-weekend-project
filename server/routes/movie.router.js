@@ -61,7 +61,6 @@ router.get("/", (req, res) => {
 
 // get selected movie from the database
 router.get("/:id", (req, res) => {
-  console.log("in movie router, movie id to retrieve:", req.params.id);
   let movieId = req.params.id;
   const queryText = `SELECT * FROM "movies"
   WHERE "movies"."id" = $1;`;
@@ -79,7 +78,6 @@ router.get("/:id", (req, res) => {
 
 // PUT Route
 router.put("/:id", (req, res) => {
-  console.log("in movie router PUT, movie id to update:", req.params);
   const movieId = req.params.id;
   for (const movieItem of movies) {
     if (movieItem.id === movieId) {
