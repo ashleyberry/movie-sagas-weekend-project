@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import './MovieItem.css';
 // styling via material ui
-import Card from '@material-ui/core/Card';
+import Card from '@mui/material/Card';
 
 class MovieItem extends Component {
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 
 // import material-ui styling
-import { Typography } from '@material-ui/core';
+import { Typography } from '@mui/material';
 
 class Footer extends Component {
   render() {
