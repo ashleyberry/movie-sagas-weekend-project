@@ -13,7 +13,7 @@ import {
   NativeSelect,
   TextField, 
   Typography
-} from '@material-ui/core';
+} from '@mui/material';
 
 class AddMovie extends Component {
 
@@ -101,7 +101,7 @@ class AddMovie extends Component {
                   variant='outlined'
                   multiline
                   style = { { width: 300 } }
-                  rowsMax={40}
+                  maxRows={40}
                   >
               </TextField>
             </div>

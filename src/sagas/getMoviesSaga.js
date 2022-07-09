@@ -1,20 +1,19 @@
-// import axios
 import axios from "axios";
-import { put } from 'redux-saga/effects';
+import { put } from "redux-saga/effects";
 
-// gets movies from database via router
-function* getMoviesSaga( action ) {
-    // console.log( 'made it into getMoviesSaga!' )
-	let response = yield axios({
-        method: 'GET',
-        url: '/api/movie'
+function* getMoviesSaga() {
+  const response = yield axios({
+    method: "GET",
+    url: "/api/movie",
+  });
+  if (response) {
+    yield put({
+      type: "SET_MOVIES",
+      payload: response.data,
     });
-	// console.log( 'getMoviesSaga response:', response.data );
-	yield put({
-	type: 'SET_MOVIES',
-	payload: response.data
-    })
-    // console.log( 'these are our movies', response.data )
+  } else {
+    console.log("error:");
+  }
 } // end getMoviesSaga
 
-export default getMoviesSaga
+export default getMoviesSaga;

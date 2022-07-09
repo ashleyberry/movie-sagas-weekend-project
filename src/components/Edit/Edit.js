@@ -9,7 +9,7 @@ import {
     Card,
     TextField, 
     Typography
-  } from '@material-ui/core';
+  } from '@mui/material';
 
 class Edit extends Component {
 
@@ -89,7 +89,7 @@ class Edit extends Component {
                           multiline
                           placeholder= { movie.description }
                           style = { { width: 300 } }
-                          rowsMax={40}>
+                          maxRows={40}>
                       </TextField>
                   </div>)}
                 </div>
@@ -115,7 +115,7 @@ class Edit extends Component {
             </Card>
           </div>
       </div>
-      )
+    );
     }
   }
 
