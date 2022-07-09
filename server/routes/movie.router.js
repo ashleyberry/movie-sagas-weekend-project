@@ -35,7 +35,6 @@ router.post("/", (req, res) => {
           console.log(err);
           res.sendStatus(500);
         });
-
       // Catch for first query
     })
     .catch((err) => {
@@ -86,6 +85,6 @@ router.put("/:id", (req, res) => {
       }
     }
   }
-}); // END PUT Route
+});
 
 module.exports = router;
